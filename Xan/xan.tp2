@@ -24,7 +24,7 @@ ALWAYS
   //INCLUDE ~%MOD_FOLDER%/handle_charsets.tpa~
 
   // No exception, everything needs to be converted
-  ACTION_DEFINE_ARRAY O#noconvert BEGIN END
+  ACTION_DEFINE_ARRAY O#noconvert BEGIN Install END
 
   // Only setup-Xan.tra needs to be reloaded
   ACTION_DEFINE_ARRAY O#reload BEGIN Setup-Xan END
@@ -47,6 +47,7 @@ LANGUAGE ~English~ ~English~ ~Xan/English/Setup-Xan.tra~
 LANGUAGE ~Russian~ ~Russian~ ~Xan/Russian/Setup-Xan.tra~
 LANGUAGE ~Polish (Translated by Magda Buller)~ ~Polish~ ~Xan/Polish/Setup-Xan.tra~
 LANGUAGE ~French (Translated by Eleima)~ ~French~ ~Xan/French/Setup-Xan.tra~
+LANGUAGE ~Simplified Chinese (Translated by Yoshimo0417)~ ~Schinese~ ~Xan/Schinese/Install.tra~
 
 BEGIN @0
 
